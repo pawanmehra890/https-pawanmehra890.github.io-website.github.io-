@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <meta http-equiv="x-UA-COMPATIBLE" content="IE=edge">
+    <title>ECOMMERCE WEBSITE DESIGN</title>
+    <!--STYLE CSSS-->
+      <LINK  rel="stylesheet" href="style2.css"></LINK>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        </style>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+  <body>
+    <div class="header">
+    <div class="container">
+      <DIV class="navbar">
+        <div class="logo">
+        <a href="index2.html">    <img src="logo.png" alt="" height="50px" width="150px">
+        </a>
+        </div>
+        <nav>
+            <ul id="menuitems"> 
+                 <li> <a href="index2.html"> HOME</a> </li>
+                <li> <a href="product.html"> PRODUCTS</a></li>
+                <li> <a href="products2.html">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="account.html"></a> ACCOUNT</a></li>       
+            </ul>
+            
+            
+        </nav>
+      <a href="cart.html"><img src="cart.png" alt="" height="30px" width="30px"></a>  
+        <img src="menu.png" alt="" class="menu" onclick="menutogle()">
+    </DIV>
+      
+</div>
+
+     <!--accounts  page-->
+     <div class="accountpage">
+        <div class="contaner">
+            <div class="row">
+                <div class="col2">
+                    <img src="image1.png" alt="" width="100%">
+                </div>
+                <div class="col2">
+                    <div class="formconatner">
+                        <div class="formbtn">
+                            <span onclick="register">Login</span>
+                            <span>Register</span>
+                        </div>
+                        <form action="" id="loginfrm">
+                            <input type="text" placeholder="username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">  Forgot password </a>
+                        </form>
+                        <form action="" id="register">
+                            <input type="text" placeholder="username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">register</button>
+                           
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+   
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footercol1">
+                <h3>Download Our App</h3>
+                
+                <p>Download App For Android and Ios mobile phone</p>
+                <div class="applogo">
+                    <img src="play-store.png" alt="">
+                     <img src="app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footercol2">
+                <img src="logo-white.png" alt="">
+                <p>our purpose to make the pleasure and benefits
+                     of sports accessible to the many
+                </p>
+            </div>
+        </div>
+        <div class="footercol3">
+            <h3>USEFUL lINKS</h3>
+            <ul>
+                <li>coupans</li>
+                <li>blog post</li>
+                <li>return policy</li>
+                <li>join affiliate</li>
+            
+            </ul>
+        </div>
+    </div>
+    <div class="footercol4">
+        <h3>FOLLOW US</h3>
+        <ul>
+            <li>facebook</li>
+            <li>twitter</li>
+            <li>instagram</li>
+            <li>youtube</li>
+        
+        </ul>
+    </div>
+    <HR>
+        <P class="COPYRIGHT">COPYRIGHT 2020-BY PM</P>
+</div>
+  
+
+
+
+<script>
+    var menuitems=document.getElementById("menuitems")
+menuitems.style.maxHeight = "0px";
+function menutogle(){
+     if(menuitems.style.maxHeight=="0px"){
+        menuitems.style.maxHeight="200px";}
+        else
+        {
+         menuitems.style.maxHeight ="0px";
+        }
+     }
+ 
+</script>
+
+
+
+
+
+         
+</body>
+</html>

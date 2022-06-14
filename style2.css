@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+ display: flex;
+ align-items: center;
+ padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+nav ul{
+    display:inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding:auto 25px auto  25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+ p{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    min-width: 100px;
+}
+h1{
+    font-weight: bold; 
+    font-size: 50px;
+}
+.col2 img{
+
+    max-width: 100%;
+    padding:30px 0 ;
+   margin-left: 100px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    padding: 8px 30px;
+    margin: 30px;
+    border-radius: 30px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+    .header{
+        background:radial-gradient(#fff,#ffd6d6)
+    }
+body
+
+{ font-family: 'Poppins', sans-serif;
+    }
+
+.header.row{
+    margin-top: 70px;
+}   
+.btn:hover{
+   background: #563434;
+} 
+.category{
+    margin: 70px ;
+    flex-wrap: wrap;
+}
+.col3{
+    flex-basis:30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col3{
+    width: 100%;
+}
+.small{
+
+    max-width:1080px ;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col4{
+     flex-basis:18%;
+     padding: 10px;
+     min-width: 200px;
+     margin-bottom: 50px;
+     transition: 0.5s;
+     flex-wrap: wrap;
+}
+.col4 img{
+    width: 100%;
+}
+
+.title{
+text-align: center;
+margin: 0  auto 80px;
+position: relative;
+line-height: 100px;
+color: #555;
+
+}
+.title::after{
+     content: '';
+     background: #ff523b;
+     width: 80px;
+     height: 5px;
+     border-radius: 5px;
+     bottom: 12%;
+     left:50%;
+     transform: translatex(-40%);
+     position: absolute;
+
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col4 p{
+    font-size: 14px;
+}
+
+
+.rating{
+    color: #ff523b;
+}
+
+.col4:hover{
+    transform: translateY(20px);
+}
+.offer{
+    
+    background: radial-gradient(#fff,#ffd6d6);
+    padding: 30px 0;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.offer img{
+  padding: 10px;
+   
+}
+small{
+    color: #555;
+}
+
+
+.testinomial{
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    color: #555;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    flex-basis: 80%;
+    
+}
+
+.testinomial img{
+    border-radius: 50%;
+}
+
+.col3 p{
+    font-size: 12px;
+    margin:12px auto;
+    color: #777;
+}
+.brands{
+    margin: 100px auto;
+}
+.col5{
+    width:  150px;
+}
+.col5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col5 img:hover{
+    filter: grayscale(0);
+}
+
+
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin-top: 100px;
+    flex-basis: 100%;
+
+}
+.footer p{
+    color:#8a8a8a ;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom:20px ;
+}
+.footercol2{
+    flex-basis: 12%;
+    align-items: center;
+}
+.footercol4{
+    margin: 20px;
+    
+}
+.footercol4 li{
+  list-style: none;
+}
+.footercol3{
+    position:absolute;
+    margin: 28px;
+
+}
+.footercol3 li{
+    list-style: none;
+}
+.footercol4 h3{
+    text-transform: capitalize;
+    
+}
+.applogo{
+    margin-top: 20px;
+}
+.applogo img{
+    width: 140px;
+}
+.FOOTER HR{
+     border: none;
+     background: #b5b5b5;
+     height: 1px;
+     margin: 20px;
+}
+.COPYRIGHT
+{
+    align-items: center;
+}
+.menu{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+@media only screen and (max-width : 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: black;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+  nav ul li  {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }nav ul li a{
+        color: whitesmoke;
+    }.menu{
+        display:block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 600px)  {
+     .row{
+        text-align: center;
+     }
+     .col2 .col3 .col4 .col5{
+        flex-basis: 100%;
+     }
+}
+.ROW2{
+      justify-content:space-around;
+      margin: 100PX auto 50px;
+      display: flex;
+}
+.ROW2 H2{
+   text-align: center;
+   font-size: 25px;
+} 
+select{
+    padding: 10px;
+    border: 1PX solid #ff523b;
+
+}
+select:focus{
+    outline: none;
+}
+.pagebtn{
+  text-align: right;
+  position: absolute;
+  margin: 50px;
+  flex-wrap: wrap;
+  float: inline-start;
+  
+ 
+}
+.pagebtn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.pagebtn span:hover{
+    background-color: orangered;
+    color:#fff ;
+}
+.smallconatiner3{
+    margin-top: 80px;
+    margin: 4px;
+    
+}
+.smallconatiner3.col2 IMG{
+    padding:0;
+    
+
+}
+.smallconatiner3.col2{
+    padding: 10px;
+}
+.smallconatiner3 h4{
+    margin: 10px;
+    font-size: 22px;
+}
+.smallconatiner3 select{
+    display: block;
+    padding: 20px;
+    margin: 10px;
+}
+.smallconatiner3 input{
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 20px;
+    margin-right: 5px;
+    border: 1PX solid #FF523B;
+}
+.smallconatiner3 P{
+    font-size: small;
+    color: #555;
+    display: inline-block;
+    margin-left: 110PX;
+    margin-top: 2VW;
+}
+
+.smallrow{
+    display: flex;
+    justify-content: space-between;
+}
+.smallimgcal{
+    flex-basis:24%;
+    cursor: pointer;
+    
+}
+@media ONLY SCREEN AND (MAX-WIDTH:1000PX) {
+     .row{
+        text-align: center;
+
+     }
+     .col2,.col3,.col4{
+        flex-basis: 100%;
+        flex-wrap:wrap ;
+     }.smallconatiner3.row{
+      text-align: left;
+     }.smallconatiner3.COL2{
+        padding: 20PX AUTO;
+     }.smallconatiner3 H1{
+        font-size: 26px;
+        line-height: 22PX;
+     }
+     .col2 H3{
+        
+     }
+}
+.col2 h3{
+    position: relative;
+    margin-left: 10VW;
+    
+    
+}
+
+
+
+.smallcart{
+        margin: 80px auto;
+}
+table{
+    width:100%;
+    border-collapse:collapse ;
+}
+.cartinfo{
+     display: flex;
+     flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    font-weight: normal;
+    background: #ff523b;
+    width: 100%;
+} 
+
+td{
+   padding: 10px 5px;
+
+}
+.smallcart small{
+      margin: 30px;
+}
+td input{
+     width: 40px;
+     height: 30px;
+     padding: 5px;
+}
+td a{
+    color:#ff523b ;
+    font-size:small ;
+}
+td img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+.cartinfo a{
+    display: block;
+    margin-left: 33px;
+}
+.total{
+    display: flex;
+     justify-content: flex-end;
+}
+.total table{
+      border-top: 3px solid #ff523b;
+      width: 100%;
+      max-width: 350px;
+}
+.accountpage{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.formconatner{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0) ;
+}
+.formconatne span{
+     font-weight:bold ;
+     padding: 0 10px;
+     color: #555;
+     cursor: pointer;
+     width: 100px;
+     display: inline-block;
+}
+.formbtn{
+       display: inline-block;
+}
+.formbtn form{
+    padding: 0 20px;
+    position: absolute;
+    max-width: 120px;
+   
+
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form.btn:focus{
+    outline: none;
+}
+#register{
+       left:0;
+}
+#loginfrm{
+    left:-300px;
+    position: relative;
+}
+
+.cart img{
+  cursor: pointer;
+}
+@media ONLY SCREEN AND (MAX-WIDTH:1000PX){
+   .formconatner{
+    width: 100%;
+   flex-basis: 50%;
+   margin-left: 100px;
+
+   }
+}
